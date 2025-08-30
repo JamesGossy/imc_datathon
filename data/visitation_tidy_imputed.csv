@@ -1,0 +1,1486 @@
+year,week,resort,visitors
+2014,1,Charlotte Pass,408
+2014,2,Charlotte Pass,151
+2014,3,Charlotte Pass,230
+2014,4,Charlotte Pass,1134
+2014,5,Charlotte Pass,3403
+2014,6,Charlotte Pass,4305
+2014,7,Charlotte Pass,3236
+2014,8,Charlotte Pass,2901
+2014,9,Charlotte Pass,3391
+2014,10,Charlotte Pass,3549
+2014,11,Charlotte Pass,3608
+2014,12,Charlotte Pass,3258
+2014,13,Charlotte Pass,2837
+2014,14,Charlotte Pass,1898
+2014,15,Charlotte Pass,995
+2015,1,Charlotte Pass,892
+2015,2,Charlotte Pass,405
+2015,3,Charlotte Pass,501
+2015,4,Charlotte Pass,1303
+2015,5,Charlotte Pass,2645
+2015,6,Charlotte Pass,3211
+2015,7,Charlotte Pass,2996
+2015,8,Charlotte Pass,2661
+2015,9,Charlotte Pass,3148
+2015,10,Charlotte Pass,3473
+2015,11,Charlotte Pass,3719
+2015,12,Charlotte Pass,3358
+2015,13,Charlotte Pass,2909
+2015,14,Charlotte Pass,2403
+2015,15,Charlotte Pass,1492
+2016,1,Charlotte Pass,531
+2016,2,Charlotte Pass,301
+2016,3,Charlotte Pass,1096
+2016,4,Charlotte Pass,2705
+2016,5,Charlotte Pass,3570
+2016,6,Charlotte Pass,3316
+2016,7,Charlotte Pass,2689
+2016,8,Charlotte Pass,3038
+2016,9,Charlotte Pass,3384
+2016,10,Charlotte Pass,3549
+2016,11,Charlotte Pass,3259
+2016,12,Charlotte Pass,2951
+2016,13,Charlotte Pass,2070
+2016,14,Charlotte Pass,1385
+2016,15,Charlotte Pass,979
+2017,1,Charlotte Pass,1030
+2017,2,Charlotte Pass,478
+2017,3,Charlotte Pass,842
+2017,4,Charlotte Pass,1923
+2017,5,Charlotte Pass,3523
+2017,6,Charlotte Pass,4189
+2017,7,Charlotte Pass,3031
+2017,8,Charlotte Pass,2928
+2017,9,Charlotte Pass,3290
+2017,10,Charlotte Pass,4046
+2017,11,Charlotte Pass,3873
+2017,12,Charlotte Pass,3634
+2017,13,Charlotte Pass,2853
+2017,14,Charlotte Pass,2669
+2017,15,Charlotte Pass,1941
+2018,1,Charlotte Pass,825
+2018,2,Charlotte Pass,630
+2018,3,Charlotte Pass,1264
+2018,4,Charlotte Pass,2062
+2018,5,Charlotte Pass,3902
+2018,6,Charlotte Pass,5033
+2018,7,Charlotte Pass,3344
+2018,8,Charlotte Pass,3031
+2018,9,Charlotte Pass,3522
+2018,10,Charlotte Pass,3849
+2018,11,Charlotte Pass,3867
+2018,12,Charlotte Pass,3839
+2018,13,Charlotte Pass,2943
+2018,14,Charlotte Pass,2542
+2018,15,Charlotte Pass,1688
+2019,1,Charlotte Pass,1385
+2019,2,Charlotte Pass,700
+2019,3,Charlotte Pass,992
+2019,4,Charlotte Pass,1904
+2019,5,Charlotte Pass,3584
+2019,6,Charlotte Pass,3998
+2019,7,Charlotte Pass,3377
+2019,8,Charlotte Pass,3318
+2019,9,Charlotte Pass,3449
+2019,10,Charlotte Pass,3258
+2019,11,Charlotte Pass,4333
+2019,12,Charlotte Pass,3980
+2019,13,Charlotte Pass,3238
+2019,14,Charlotte Pass,2733
+2019,15,Charlotte Pass,2018
+2020,1,Charlotte Pass,161
+2020,2,Charlotte Pass,122
+2020,3,Charlotte Pass,133
+2020,4,Charlotte Pass,379
+2020,5,Charlotte Pass,457
+2020,6,Charlotte Pass,765
+2020,7,Charlotte Pass,422
+2020,8,Charlotte Pass,286
+2020,9,Charlotte Pass,292
+2020,10,Charlotte Pass,176
+2020,11,Charlotte Pass,3796
+2020,12,Charlotte Pass,4156
+2020,13,Charlotte Pass,3609
+2020,14,Charlotte Pass,2986
+2020,15,Charlotte Pass,2376
+2021,1,Charlotte Pass,323
+2021,2,Charlotte Pass,597
+2021,3,Charlotte Pass,1307
+2021,4,Charlotte Pass,2355
+2021,5,Charlotte Pass,3029
+2021,6,Charlotte Pass,1219
+2021,7,Charlotte Pass,468
+2021,8,Charlotte Pass,1653
+2021,9,Charlotte Pass,1388
+2021,10,Charlotte Pass,1036
+2021,11,Charlotte Pass,1046
+2021,12,Charlotte Pass,424
+2021,13,Charlotte Pass,329
+2021,14,Charlotte Pass,286
+2021,15,Charlotte Pass,504
+2022,1,Charlotte Pass,2109
+2022,2,Charlotte Pass,2110
+2022,3,Charlotte Pass,2385
+2022,4,Charlotte Pass,3705
+2022,5,Charlotte Pass,4232
+2022,6,Charlotte Pass,3615
+2022,7,Charlotte Pass,3723
+2022,8,Charlotte Pass,3536
+2022,9,Charlotte Pass,3441
+2022,10,Charlotte Pass,3634
+2022,11,Charlotte Pass,3603
+2022,12,Charlotte Pass,3644
+2022,13,Charlotte Pass,2794
+2022,14,Charlotte Pass,2038
+2022,15,Charlotte Pass,1829
+2023,1,Charlotte Pass,605
+2023,2,Charlotte Pass,741
+2023,3,Charlotte Pass,1607
+2023,4,Charlotte Pass,3258
+2023,5,Charlotte Pass,3688
+2023,6,Charlotte Pass,3573
+2023,7,Charlotte Pass,3165
+2023,8,Charlotte Pass,3090
+2023,9,Charlotte Pass,2884
+2023,10,Charlotte Pass,2901
+2023,11,Charlotte Pass,2949
+2023,12,Charlotte Pass,2480
+2023,13,Charlotte Pass,1650
+2023,14,Charlotte Pass,1037
+2023,15,Charlotte Pass,705
+2024,1,Charlotte Pass,392
+2024,2,Charlotte Pass,505
+2024,3,Charlotte Pass,677
+2024,4,Charlotte Pass,1460
+2024,5,Charlotte Pass,3268
+2024,6,Charlotte Pass,3602
+2024,7,Charlotte Pass,3271
+2024,8,Charlotte Pass,3164
+2024,9,Charlotte Pass,3457
+2024,10,Charlotte Pass,3084
+2024,11,Charlotte Pass,2667
+2024,12,Charlotte Pass,2392
+2024,13,Charlotte Pass,1323
+2024,14,Charlotte Pass,454
+2024,15,Charlotte Pass,294
+2014,1,Falls Creek,2790
+2014,2,Falls Creek,1425
+2014,3,Falls Creek,2101
+2014,4,Falls Creek,9544
+2014,5,Falls Creek,26211
+2014,6,Falls Creek,33392
+2014,7,Falls Creek,28149
+2014,8,Falls Creek,24565
+2014,9,Falls Creek,28981
+2014,10,Falls Creek,33125
+2014,11,Falls Creek,36486
+2014,12,Falls Creek,34468
+2014,13,Falls Creek,30104
+2014,14,Falls Creek,23864
+2014,15,Falls Creek,15869
+2015,1,Falls Creek,4799
+2015,2,Falls Creek,3293
+2015,3,Falls Creek,5965
+2015,4,Falls Creek,11758
+2015,5,Falls Creek,20779
+2015,6,Falls Creek,24064
+2015,7,Falls Creek,27566
+2015,8,Falls Creek,25955
+2015,9,Falls Creek,31872
+2015,10,Falls Creek,35417
+2015,11,Falls Creek,37063
+2015,12,Falls Creek,36903
+2015,13,Falls Creek,33126
+2015,14,Falls Creek,28099
+2015,15,Falls Creek,18548
+2016,1,Falls Creek,3840
+2016,2,Falls Creek,2176
+2016,3,Falls Creek,10297
+2016,4,Falls Creek,23077
+2016,5,Falls Creek,33309
+2016,6,Falls Creek,38818
+2016,7,Falls Creek,30873
+2016,8,Falls Creek,36692
+2016,9,Falls Creek,40090
+2016,10,Falls Creek,43213
+2016,11,Falls Creek,43213
+2016,12,Falls Creek,43275
+2016,13,Falls Creek,33724
+2016,14,Falls Creek,24144
+2016,15,Falls Creek,19696
+2017,1,Falls Creek,5663
+2017,2,Falls Creek,3577
+2017,3,Falls Creek,7935
+2017,4,Falls Creek,16182
+2017,5,Falls Creek,30745
+2017,6,Falls Creek,38180
+2017,7,Falls Creek,30541
+2017,8,Falls Creek,29332
+2017,9,Falls Creek,34784
+2017,10,Falls Creek,39838
+2017,11,Falls Creek,41643
+2017,12,Falls Creek,38487
+2017,13,Falls Creek,34745
+2017,14,Falls Creek,28865
+2017,15,Falls Creek,21846
+2018,1,Falls Creek,4735
+2018,2,Falls Creek,3408
+2018,3,Falls Creek,8450
+2018,4,Falls Creek,16200
+2018,5,Falls Creek,32502
+2018,6,Falls Creek,40750
+2018,7,Falls Creek,31768
+2018,8,Falls Creek,29814
+2018,9,Falls Creek,33734
+2018,10,Falls Creek,41774
+2018,11,Falls Creek,40149
+2018,12,Falls Creek,38075
+2018,13,Falls Creek,32603
+2018,14,Falls Creek,28410
+2018,15,Falls Creek,19085
+2019,1,Falls Creek,8702
+2019,2,Falls Creek,4257
+2019,3,Falls Creek,7581
+2019,4,Falls Creek,14826
+2019,5,Falls Creek,31088
+2019,6,Falls Creek,37988
+2019,7,Falls Creek,33409
+2019,8,Falls Creek,31157
+2019,9,Falls Creek,34471
+2019,10,Falls Creek,39514
+2019,11,Falls Creek,40569
+2019,12,Falls Creek,38230
+2019,13,Falls Creek,35090
+2019,14,Falls Creek,30655
+2019,15,Falls Creek,22832
+2020,1,Falls Creek,2905
+2020,2,Falls Creek,1931
+2020,3,Falls Creek,1672
+2020,4,Falls Creek,4208
+2020,5,Falls Creek,7199
+2020,6,Falls Creek,8741
+2020,7,Falls Creek,6964
+2020,8,Falls Creek,3407
+2020,9,Falls Creek,4837
+2020,10,Falls Creek,4869
+2020,11,Falls Creek,40042
+2020,12,Falls Creek,39400
+2020,13,Falls Creek,36660
+2020,14,Falls Creek,32872
+2020,15,Falls Creek,26744
+2021,1,Falls Creek,8585
+2021,2,Falls Creek,13114
+2021,3,Falls Creek,24383
+2021,4,Falls Creek,31297
+2021,5,Falls Creek,36763
+2021,6,Falls Creek,14100
+2021,7,Falls Creek,7500
+2021,8,Falls Creek,22133
+2021,9,Falls Creek,9250
+2021,10,Falls Creek,14152
+2021,11,Falls Creek,16893
+2021,12,Falls Creek,10746
+2021,13,Falls Creek,7505
+2021,14,Falls Creek,7698
+2021,15,Falls Creek,5282
+2022,1,Falls Creek,16216
+2022,2,Falls Creek,11828
+2022,3,Falls Creek,21374
+2022,4,Falls Creek,31895
+2022,5,Falls Creek,36797
+2022,6,Falls Creek,40770
+2022,7,Falls Creek,38308
+2022,8,Falls Creek,35915
+2022,9,Falls Creek,39378
+2022,10,Falls Creek,41541
+2022,11,Falls Creek,44226
+2022,12,Falls Creek,44959
+2022,13,Falls Creek,35811
+2022,14,Falls Creek,30281
+2022,15,Falls Creek,26821
+2023,1,Falls Creek,7332
+2023,2,Falls Creek,7029
+2023,3,Falls Creek,16737
+2023,4,Falls Creek,29896
+2023,5,Falls Creek,34384
+2023,6,Falls Creek,39352
+2023,7,Falls Creek,39492
+2023,8,Falls Creek,35667
+2023,9,Falls Creek,39490
+2023,10,Falls Creek,43353
+2023,11,Falls Creek,42005
+2023,12,Falls Creek,36988
+2023,13,Falls Creek,28811
+2023,14,Falls Creek,22814
+2023,15,Falls Creek,16476
+2024,1,Falls Creek,5511
+2024,2,Falls Creek,5506
+2024,3,Falls Creek,6501
+2024,4,Falls Creek,19666
+2024,5,Falls Creek,40093
+2024,6,Falls Creek,46620
+2024,7,Falls Creek,43349
+2024,8,Falls Creek,43812
+2024,9,Falls Creek,49697
+2024,10,Falls Creek,38756
+2024,11,Falls Creek,38541
+2024,12,Falls Creek,42101
+2024,13,Falls Creek,25252
+2024,14,Falls Creek,17137
+2024,15,Falls Creek,12950
+2014,1,Mt Baw Baw,555
+2014,2,Mt Baw Baw,804
+2014,3,Mt Baw Baw,993
+2014,4,Mt Baw Baw,2976
+2014,5,Mt Baw Baw,11112
+2014,6,Mt Baw Baw,13381
+2014,7,Mt Baw Baw,8832
+2014,8,Mt Baw Baw,9347
+2014,9,Mt Baw Baw,10071
+2014,10,Mt Baw Baw,11071
+2014,11,Mt Baw Baw,10079
+2014,12,Mt Baw Baw,7635
+2014,13,Mt Baw Baw,4681
+2014,14,Mt Baw Baw,1904
+2014,15,Mt Baw Baw,3292
+2015,1,Mt Baw Baw,3185
+2015,2,Mt Baw Baw,2058
+2015,3,Mt Baw Baw,1745
+2015,4,Mt Baw Baw,2751
+2015,5,Mt Baw Baw,6748
+2015,6,Mt Baw Baw,8269
+2015,7,Mt Baw Baw,8219
+2015,8,Mt Baw Baw,8600
+2015,9,Mt Baw Baw,8932
+2015,10,Mt Baw Baw,10429
+2015,11,Mt Baw Baw,10927
+2015,12,Mt Baw Baw,9027
+2015,13,Mt Baw Baw,6236
+2015,14,Mt Baw Baw,4387
+2015,15,Mt Baw Baw,2247
+2016,1,Mt Baw Baw,1154
+2016,2,Mt Baw Baw,1298
+2016,3,Mt Baw Baw,2306
+2016,4,Mt Baw Baw,8796
+2016,5,Mt Baw Baw,7976
+2016,6,Mt Baw Baw,6614
+2016,7,Mt Baw Baw,5267
+2016,8,Mt Baw Baw,6394
+2016,9,Mt Baw Baw,6676
+2016,10,Mt Baw Baw,5593
+2016,11,Mt Baw Baw,3979
+2016,12,Mt Baw Baw,3909
+2016,13,Mt Baw Baw,1373
+2016,14,Mt Baw Baw,5312
+2016,15,Mt Baw Baw,3317
+2017,1,Mt Baw Baw,3569
+2017,2,Mt Baw Baw,798
+2017,3,Mt Baw Baw,846
+2017,4,Mt Baw Baw,3486
+2017,5,Mt Baw Baw,5981
+2017,6,Mt Baw Baw,9132
+2017,7,Mt Baw Baw,7286
+2017,8,Mt Baw Baw,5799
+2017,9,Mt Baw Baw,5331
+2017,10,Mt Baw Baw,6311
+2017,11,Mt Baw Baw,5884
+2017,12,Mt Baw Baw,4921
+2017,13,Mt Baw Baw,4086
+2017,14,Mt Baw Baw,5565
+2017,15,Mt Baw Baw,3409
+2018,1,Mt Baw Baw,2753
+2018,2,Mt Baw Baw,2102
+2018,3,Mt Baw Baw,5768
+2018,4,Mt Baw Baw,7058
+2018,5,Mt Baw Baw,11141
+2018,6,Mt Baw Baw,18031
+2018,7,Mt Baw Baw,8803
+2018,8,Mt Baw Baw,7966
+2018,9,Mt Baw Baw,8950
+2018,10,Mt Baw Baw,7621
+2018,11,Mt Baw Baw,6837
+2018,12,Mt Baw Baw,10011
+2018,13,Mt Baw Baw,6751
+2018,14,Mt Baw Baw,5793
+2018,15,Mt Baw Baw,4064
+2019,1,Mt Baw Baw,6393
+2019,2,Mt Baw Baw,4311
+2019,3,Mt Baw Baw,5341
+2019,4,Mt Baw Baw,6645
+2019,5,Mt Baw Baw,10595
+2019,6,Mt Baw Baw,9056
+2019,7,Mt Baw Baw,9515
+2019,8,Mt Baw Baw,10134
+2019,9,Mt Baw Baw,10039
+2019,10,Mt Baw Baw,4004
+2019,11,Mt Baw Baw,12128
+2019,12,Mt Baw Baw,10255
+2019,13,Mt Baw Baw,8502
+2019,14,Mt Baw Baw,6878
+2019,15,Mt Baw Baw,6089
+2020,1,Mt Baw Baw,1074
+2020,2,Mt Baw Baw,544
+2020,3,Mt Baw Baw,603
+2020,4,Mt Baw Baw,2168
+2020,5,Mt Baw Baw,4055
+2020,6,Mt Baw Baw,2945
+2020,7,Mt Baw Baw,1149
+2020,8,Mt Baw Baw,941
+2020,9,Mt Baw Baw,834
+2020,10,Mt Baw Baw,7022
+2020,11,Mt Baw Baw,8066
+2020,12,Mt Baw Baw,11192
+2020,13,Mt Baw Baw,9378
+2020,14,Mt Baw Baw,7690
+2020,15,Mt Baw Baw,6484
+2021,1,Mt Baw Baw,334
+2021,2,Mt Baw Baw,941
+2021,3,Mt Baw Baw,2614
+2021,4,Mt Baw Baw,8833
+2021,5,Mt Baw Baw,11910
+2021,6,Mt Baw Baw,2430
+2021,7,Mt Baw Baw,3
+2021,8,Mt Baw Baw,3274
+2021,9,Mt Baw Baw,1757
+2021,10,Mt Baw Baw,2392
+2021,11,Mt Baw Baw,1948
+2021,12,Mt Baw Baw,0
+2021,13,Mt Baw Baw,0
+2021,14,Mt Baw Baw,176
+2021,15,Mt Baw Baw,475
+2022,1,Mt Baw Baw,8513
+2022,2,Mt Baw Baw,6516
+2022,3,Mt Baw Baw,5609
+2022,4,Mt Baw Baw,10614
+2022,5,Mt Baw Baw,11092
+2022,6,Mt Baw Baw,9082
+2022,7,Mt Baw Baw,8570
+2022,8,Mt Baw Baw,7825
+2022,9,Mt Baw Baw,7810
+2022,10,Mt Baw Baw,6587
+2022,11,Mt Baw Baw,7939
+2022,12,Mt Baw Baw,6782
+2022,13,Mt Baw Baw,4750
+2022,14,Mt Baw Baw,3009
+2022,15,Mt Baw Baw,2262
+2023,1,Mt Baw Baw,1218
+2023,2,Mt Baw Baw,2458
+2023,3,Mt Baw Baw,7129
+2023,4,Mt Baw Baw,17116
+2023,5,Mt Baw Baw,14690
+2023,6,Mt Baw Baw,9419
+2023,7,Mt Baw Baw,10343
+2023,8,Mt Baw Baw,10041
+2023,9,Mt Baw Baw,7015
+2023,10,Mt Baw Baw,7481
+2023,11,Mt Baw Baw,4999
+2023,12,Mt Baw Baw,3680
+2023,13,Mt Baw Baw,1265
+2023,14,Mt Baw Baw,3880
+2023,15,Mt Baw Baw,2636
+2024,1,Mt Baw Baw,1558
+2024,2,Mt Baw Baw,1546
+2024,3,Mt Baw Baw,1695
+2024,4,Mt Baw Baw,4457
+2024,5,Mt Baw Baw,11079
+2024,6,Mt Baw Baw,9830
+2024,7,Mt Baw Baw,9456
+2024,8,Mt Baw Baw,8513
+2024,9,Mt Baw Baw,9635
+2024,10,Mt Baw Baw,8121
+2024,11,Mt Baw Baw,5977
+2024,12,Mt Baw Baw,3597
+2024,13,Mt Baw Baw,1500
+2024,14,Mt Baw Baw,632
+2024,15,Mt Baw Baw,0
+2014,1,Mt Buller,8296
+2014,2,Mt Buller,1987
+2014,3,Mt Buller,2413
+2014,4,Mt Buller,18831
+2014,5,Mt Buller,49217
+2014,6,Mt Buller,59693
+2014,7,Mt Buller,45788
+2014,8,Mt Buller,41720
+2014,9,Mt Buller,48984
+2014,10,Mt Buller,47315
+2014,11,Mt Buller,43314
+2014,12,Mt Buller,41063
+2014,13,Mt Buller,41063
+2014,14,Mt Buller,26222
+2014,15,Mt Buller,11881
+2015,1,Mt Buller,15612
+2015,2,Mt Buller,6592
+2015,3,Mt Buller,6648
+2015,4,Mt Buller,18766
+2015,5,Mt Buller,38879
+2015,6,Mt Buller,45629
+2015,7,Mt Buller,38873
+2015,8,Mt Buller,36714
+2015,9,Mt Buller,38171
+2015,10,Mt Buller,41782
+2015,11,Mt Buller,44060
+2015,12,Mt Buller,38823
+2015,13,Mt Buller,38042
+2015,14,Mt Buller,23919
+2015,15,Mt Buller,21892
+2016,1,Mt Buller,8368
+2016,2,Mt Buller,5298
+2016,3,Mt Buller,17606
+2016,4,Mt Buller,37586
+2016,5,Mt Buller,56664
+2016,6,Mt Buller,44445
+2016,7,Mt Buller,37928
+2016,8,Mt Buller,39125
+2016,9,Mt Buller,46055
+2016,10,Mt Buller,44706
+2016,11,Mt Buller,38065
+2016,12,Mt Buller,34449
+2016,13,Mt Buller,21929
+2016,14,Mt Buller,13075
+2016,15,Mt Buller,7411
+2017,1,Mt Buller,18142
+2017,2,Mt Buller,9023
+2017,3,Mt Buller,13836
+2017,4,Mt Buller,26972
+2017,5,Mt Buller,50070
+2017,6,Mt Buller,57787
+2017,7,Mt Buller,40050
+2017,8,Mt Buller,37535
+2017,9,Mt Buller,39778
+2017,10,Mt Buller,48862
+2017,11,Mt Buller,45833
+2017,12,Mt Buller,44047
+2017,13,Mt Buller,32214
+2017,14,Mt Buller,32542
+2017,15,Mt Buller,24402
+2018,1,Mt Buller,13279
+2018,2,Mt Buller,11039
+2018,3,Mt Buller,19293
+2018,4,Mt Buller,27761
+2018,5,Mt Buller,54337
+2018,6,Mt Buller,66326
+2018,7,Mt Buller,46230
+2018,8,Mt Buller,39057
+2018,9,Mt Buller,45601
+2018,10,Mt Buller,43886
+2018,11,Mt Buller,46782
+2018,12,Mt Buller,46140
+2018,13,Mt Buller,34877
+2018,14,Mt Buller,31144
+2018,15,Mt Buller,20104
+2019,1,Mt Buller,22375
+2019,2,Mt Buller,10904
+2019,3,Mt Buller,13018
+2019,4,Mt Buller,29400
+2019,5,Mt Buller,46986
+2019,6,Mt Buller,49957
+2019,7,Mt Buller,42583
+2019,8,Mt Buller,41415
+2019,9,Mt Buller,40425
+2019,10,Mt Buller,41156
+2019,11,Mt Buller,48415
+2019,12,Mt Buller,44315
+2019,13,Mt Buller,34454
+2019,14,Mt Buller,30775
+2019,15,Mt Buller,22540
+2020,1,Mt Buller,2665
+2020,2,Mt Buller,2843
+2020,3,Mt Buller,3537
+2020,4,Mt Buller,9988
+2020,5,Mt Buller,3537
+2020,6,Mt Buller,15619
+2020,7,Mt Buller,6805
+2020,8,Mt Buller,7366
+2020,9,Mt Buller,7312
+2020,10,Mt Buller,3812
+2020,11,Mt Buller,44786
+2020,12,Mt Buller,46365
+2020,13,Mt Buller,39384
+2020,14,Mt Buller,32614
+2020,15,Mt Buller,26658
+2021,1,Mt Buller,2198
+2021,2,Mt Buller,5269
+2021,3,Mt Buller,17995
+2021,4,Mt Buller,39561
+2021,5,Mt Buller,53339
+2021,6,Mt Buller,26598
+2021,7,Mt Buller,7908
+2021,8,Mt Buller,31619
+2021,9,Mt Buller,25906
+2021,10,Mt Buller,16707
+2021,11,Mt Buller,15200
+2021,12,Mt Buller,5401
+2021,13,Mt Buller,3732
+2021,14,Mt Buller,176
+2021,15,Mt Buller,5975
+2022,1,Mt Buller,27665
+2022,2,Mt Buller,33328
+2022,3,Mt Buller,36352
+2022,4,Mt Buller,58192
+2022,5,Mt Buller,65372
+2022,6,Mt Buller,49092
+2022,7,Mt Buller,49631
+2022,8,Mt Buller,50634
+2022,9,Mt Buller,40367
+2022,10,Mt Buller,44242
+2022,11,Mt Buller,43874
+2022,12,Mt Buller,44775
+2022,13,Mt Buller,30766
+2022,14,Mt Buller,21896
+2022,15,Mt Buller,19427
+2023,1,Mt Buller,10172
+2023,2,Mt Buller,12397
+2023,3,Mt Buller,23839
+2023,4,Mt Buller,49596
+2023,5,Mt Buller,58139
+2023,6,Mt Buller,51039
+2023,7,Mt Buller,46314
+2023,8,Mt Buller,46474
+2023,9,Mt Buller,40587
+2023,10,Mt Buller,37635
+2023,11,Mt Buller,36754
+2023,12,Mt Buller,33923
+2023,13,Mt Buller,18840
+2023,14,Mt Buller,9166
+2023,15,Mt Buller,6355
+2024,1,Mt Buller,5726
+2024,2,Mt Buller,8215
+2024,3,Mt Buller,11786
+2024,4,Mt Buller,24083
+2024,5,Mt Buller,50827
+2024,6,Mt Buller,53357
+2024,7,Mt Buller,45399
+2024,8,Mt Buller,49676
+2024,9,Mt Buller,49587
+2024,10,Mt Buller,50031
+2024,11,Mt Buller,43387
+2024,12,Mt Buller,36668
+2024,13,Mt Buller,15415
+2024,14,Mt Buller,14003
+2024,15,Mt Buller,7760
+2014,1,Mt Hotham,3483
+2014,2,Mt Hotham,1253
+2014,3,Mt Hotham,2992
+2014,4,Mt Hotham,9680
+2014,5,Mt Hotham,29628
+2014,6,Mt Hotham,36665
+2014,7,Mt Hotham,26465
+2014,8,Mt Hotham,21679
+2014,9,Mt Hotham,31019
+2014,10,Mt Hotham,30360
+2014,11,Mt Hotham,35923
+2014,12,Mt Hotham,32657
+2014,13,Mt Hotham,28855
+2014,14,Mt Hotham,18708
+2014,15,Mt Hotham,11117
+2015,1,Mt Hotham,4997
+2015,2,Mt Hotham,1797
+2015,3,Mt Hotham,3605
+2015,4,Mt Hotham,13197
+2015,5,Mt Hotham,22318
+2015,6,Mt Hotham,27894
+2015,7,Mt Hotham,22620
+2015,8,Mt Hotham,17562
+2015,9,Mt Hotham,27850
+2015,10,Mt Hotham,31159
+2015,11,Mt Hotham,35122
+2015,12,Mt Hotham,30754
+2015,13,Mt Hotham,25367
+2015,14,Mt Hotham,30754
+2015,15,Mt Hotham,12005
+2016,1,Mt Hotham,4590
+2016,2,Mt Hotham,1860
+2016,3,Mt Hotham,8368
+2016,4,Mt Hotham,17433
+2016,5,Mt Hotham,21302
+2016,6,Mt Hotham,25173
+2016,7,Mt Hotham,20774
+2016,8,Mt Hotham,19557
+2016,9,Mt Hotham,27232
+2016,10,Mt Hotham,28044
+2016,11,Mt Hotham,31774
+2016,12,Mt Hotham,28211
+2016,13,Mt Hotham,20295
+2016,14,Mt Hotham,14224
+2016,15,Mt Hotham,10134
+2017,1,Mt Hotham,6288
+2017,2,Mt Hotham,2644
+2017,3,Mt Hotham,5756
+2017,4,Mt Hotham,17281
+2017,5,Mt Hotham,29573
+2017,6,Mt Hotham,33467
+2017,7,Mt Hotham,23812
+2017,8,Mt Hotham,25596
+2017,9,Mt Hotham,29214
+2017,10,Mt Hotham,33652
+2017,11,Mt Hotham,35159
+2017,12,Mt Hotham,32732
+2017,13,Mt Hotham,26326
+2017,14,Mt Hotham,21960
+2017,15,Mt Hotham,14990
+2018,1,Mt Hotham,6271
+2018,2,Mt Hotham,3489
+2018,3,Mt Hotham,6911
+2018,4,Mt Hotham,17524
+2018,5,Mt Hotham,31435
+2018,6,Mt Hotham,37737
+2018,7,Mt Hotham,25157
+2018,8,Mt Hotham,24150
+2018,9,Mt Hotham,30515
+2018,10,Mt Hotham,33527
+2018,11,Mt Hotham,38115
+2018,12,Mt Hotham,35284
+2018,13,Mt Hotham,28187
+2018,14,Mt Hotham,21947
+2018,15,Mt Hotham,15320
+2019,1,Mt Hotham,5948
+2019,2,Mt Hotham,3019
+2019,3,Mt Hotham,5820
+2019,4,Mt Hotham,13150
+2019,5,Mt Hotham,26572
+2019,6,Mt Hotham,36382
+2019,7,Mt Hotham,23978
+2019,8,Mt Hotham,24998
+2019,9,Mt Hotham,31360
+2019,10,Mt Hotham,29531
+2019,11,Mt Hotham,39955
+2019,12,Mt Hotham,37905
+2019,13,Mt Hotham,33186
+2019,14,Mt Hotham,27192
+2019,15,Mt Hotham,20169
+2020,1,Mt Hotham,2016
+2020,2,Mt Hotham,1346
+2020,3,Mt Hotham,1416
+2020,4,Mt Hotham,4172
+2020,5,Mt Hotham,9325
+2020,6,Mt Hotham,15316
+2020,7,Mt Hotham,8953
+2020,8,Mt Hotham,4401
+2020,9,Mt Hotham,3476
+2020,10,Mt Hotham,1043
+2020,11,Mt Hotham,34743
+2020,12,Mt Hotham,38930
+2020,13,Mt Hotham,35546
+2020,14,Mt Hotham,30189
+2020,15,Mt Hotham,23680
+2021,1,Mt Hotham,3992
+2021,2,Mt Hotham,9086
+2021,3,Mt Hotham,16742
+2021,4,Mt Hotham,28047
+2021,5,Mt Hotham,35270
+2021,6,Mt Hotham,13693
+2021,7,Mt Hotham,6750
+2021,8,Mt Hotham,18858
+2021,9,Mt Hotham,27982
+2021,10,Mt Hotham,16215
+2021,11,Mt Hotham,15773
+2021,12,Mt Hotham,4200
+2021,13,Mt Hotham,4200
+2021,14,Mt Hotham,5617
+2021,15,Mt Hotham,11309
+2022,1,Mt Hotham,16726
+2022,2,Mt Hotham,17273
+2022,3,Mt Hotham,17846
+2022,4,Mt Hotham,32710
+2022,5,Mt Hotham,39827
+2022,6,Mt Hotham,34135
+2022,7,Mt Hotham,34204
+2022,8,Mt Hotham,32560
+2022,9,Mt Hotham,34634
+2022,10,Mt Hotham,37253
+2022,11,Mt Hotham,34672
+2022,12,Mt Hotham,33389
+2022,13,Mt Hotham,29398
+2022,14,Mt Hotham,21856
+2022,15,Mt Hotham,18981
+2023,1,Mt Hotham,5318
+2023,2,Mt Hotham,8241
+2023,3,Mt Hotham,18549
+2023,4,Mt Hotham,33179
+2023,5,Mt Hotham,34315
+2023,6,Mt Hotham,44648
+2023,7,Mt Hotham,35497
+2023,8,Mt Hotham,34086
+2023,9,Mt Hotham,34067
+2023,10,Mt Hotham,35521
+2023,11,Mt Hotham,37115
+2023,12,Mt Hotham,30944
+2023,13,Mt Hotham,22969
+2023,14,Mt Hotham,15149
+2023,15,Mt Hotham,9148
+2024,1,Mt Hotham,2079
+2024,2,Mt Hotham,4269
+2024,3,Mt Hotham,6033
+2024,4,Mt Hotham,11558
+2024,5,Mt Hotham,27353
+2024,6,Mt Hotham,31258
+2024,7,Mt Hotham,36427
+2024,8,Mt Hotham,24401
+2024,9,Mt Hotham,25904
+2024,10,Mt Hotham,25139
+2024,11,Mt Hotham,24260
+2024,12,Mt Hotham,19289
+2024,13,Mt Hotham,14487
+2024,14,Mt Hotham,2700
+2024,15,Mt Hotham,12148
+2014,1,Mt Stirling,60
+2014,2,Mt Stirling,42
+2014,3,Mt Stirling,30
+2014,4,Mt Stirling,165
+2014,5,Mt Stirling,645
+2014,6,Mt Stirling,1316
+2014,7,Mt Stirling,684
+2014,8,Mt Stirling,1250
+2014,9,Mt Stirling,1280
+2014,10,Mt Stirling,1653
+2014,11,Mt Stirling,902
+2014,12,Mt Stirling,847
+2014,13,Mt Stirling,522
+2014,14,Mt Stirling,267
+2014,15,Mt Stirling,66
+2015,1,Mt Stirling,39
+2015,2,Mt Stirling,63
+2015,3,Mt Stirling,51
+2015,4,Mt Stirling,27
+2015,5,Mt Stirling,69
+2015,6,Mt Stirling,240
+2015,7,Mt Stirling,714
+2015,8,Mt Stirling,558
+2015,9,Mt Stirling,1218
+2015,10,Mt Stirling,1371
+2015,11,Mt Stirling,1146
+2015,12,Mt Stirling,744
+2015,13,Mt Stirling,618
+2015,14,Mt Stirling,429
+2015,15,Mt Stirling,249
+2016,1,Mt Stirling,39
+2016,2,Mt Stirling,36
+2016,3,Mt Stirling,186
+2016,4,Mt Stirling,480
+2016,5,Mt Stirling,711
+2016,6,Mt Stirling,840
+2016,7,Mt Stirling,694
+2016,8,Mt Stirling,1326
+2016,9,Mt Stirling,1122
+2016,10,Mt Stirling,1149
+2016,11,Mt Stirling,708
+2016,12,Mt Stirling,735
+2016,13,Mt Stirling,198
+2016,14,Mt Stirling,102
+2016,15,Mt Stirling,87
+2017,1,Mt Stirling,96
+2017,2,Mt Stirling,33
+2017,3,Mt Stirling,72
+2017,4,Mt Stirling,132
+2017,5,Mt Stirling,162
+2017,6,Mt Stirling,387
+2017,7,Mt Stirling,962
+2017,8,Mt Stirling,702
+2017,9,Mt Stirling,1176
+2017,10,Mt Stirling,1317
+2017,11,Mt Stirling,1452
+2017,12,Mt Stirling,936
+2017,13,Mt Stirling,897
+2017,14,Mt Stirling,1023
+2017,15,Mt Stirling,408
+2018,1,Mt Stirling,192
+2018,2,Mt Stirling,180
+2018,3,Mt Stirling,339
+2018,4,Mt Stirling,474
+2018,5,Mt Stirling,810
+2018,6,Mt Stirling,1086
+2018,7,Mt Stirling,1269
+2018,8,Mt Stirling,1128
+2018,9,Mt Stirling,1719
+2018,10,Mt Stirling,1860
+2018,11,Mt Stirling,1452
+2018,12,Mt Stirling,1374
+2018,13,Mt Stirling,913
+2018,14,Mt Stirling,498
+2018,15,Mt Stirling,258
+2019,1,Mt Stirling,237
+2019,2,Mt Stirling,81
+2019,3,Mt Stirling,126
+2019,4,Mt Stirling,63
+2019,5,Mt Stirling,123
+2019,6,Mt Stirling,318
+2019,7,Mt Stirling,675
+2019,8,Mt Stirling,858
+2019,9,Mt Stirling,924
+2019,10,Mt Stirling,909
+2019,11,Mt Stirling,1455
+2019,12,Mt Stirling,1542
+2019,13,Mt Stirling,1083
+2019,14,Mt Stirling,522
+2019,15,Mt Stirling,363
+2020,1,Mt Stirling,126
+2020,2,Mt Stirling,27
+2020,3,Mt Stirling,24
+2020,4,Mt Stirling,93
+2020,5,Mt Stirling,171
+2020,6,Mt Stirling,438
+2020,7,Mt Stirling,108
+2020,8,Mt Stirling,127
+2020,9,Mt Stirling,98
+2020,10,Mt Stirling,9
+2020,11,Mt Stirling,1182
+2020,12,Mt Stirling,1498
+2020,13,Mt Stirling,1312
+2020,14,Mt Stirling,802
+2020,15,Mt Stirling,442
+2021,1,Mt Stirling,216
+2021,2,Mt Stirling,69
+2021,3,Mt Stirling,99
+2021,4,Mt Stirling,315
+2021,5,Mt Stirling,697
+2021,6,Mt Stirling,103
+2021,7,Mt Stirling,273
+2021,8,Mt Stirling,468
+2021,9,Mt Stirling,774
+2021,10,Mt Stirling,834
+2021,11,Mt Stirling,4
+2021,12,Mt Stirling,0
+2021,13,Mt Stirling,15
+2021,14,Mt Stirling,33
+2021,15,Mt Stirling,618
+2022,1,Mt Stirling,1038
+2022,2,Mt Stirling,711
+2022,3,Mt Stirling,426
+2022,4,Mt Stirling,984
+2022,5,Mt Stirling,1071
+2022,6,Mt Stirling,660
+2022,7,Mt Stirling,1158
+2022,8,Mt Stirling,1032
+2022,9,Mt Stirling,819
+2022,10,Mt Stirling,1314
+2022,11,Mt Stirling,1577
+2022,12,Mt Stirling,975
+2022,13,Mt Stirling,609
+2022,14,Mt Stirling,357
+2022,15,Mt Stirling,85
+2023,1,Mt Stirling,54
+2023,2,Mt Stirling,82
+2023,3,Mt Stirling,422
+2023,4,Mt Stirling,710
+2023,5,Mt Stirling,678
+2023,6,Mt Stirling,844
+2023,7,Mt Stirling,589
+2023,8,Mt Stirling,673
+2023,9,Mt Stirling,1387
+2023,10,Mt Stirling,1495
+2023,11,Mt Stirling,2050
+2023,12,Mt Stirling,906
+2023,13,Mt Stirling,1069
+2023,14,Mt Stirling,483
+2023,15,Mt Stirling,221
+2024,1,Mt Stirling,54
+2024,2,Mt Stirling,12
+2024,3,Mt Stirling,106
+2024,4,Mt Stirling,122
+2024,5,Mt Stirling,426
+2024,6,Mt Stirling,122
+2024,7,Mt Stirling,1403
+2024,8,Mt Stirling,1596
+2024,9,Mt Stirling,2097
+2024,10,Mt Stirling,1632
+2024,11,Mt Stirling,1416
+2024,12,Mt Stirling,701
+2024,13,Mt Stirling,213
+2024,14,Mt Stirling,534
+2024,15,Mt Stirling,0
+2014,1,Perisher,7370
+2014,2,Perisher,2751
+2014,3,Perisher,4255
+2014,4,Perisher,20265
+2014,5,Perisher,61339
+2014,6,Perisher,76855
+2014,7,Perisher,57593
+2014,8,Perisher,52426
+2014,9,Perisher,62654
+2014,10,Perisher,64928
+2014,11,Perisher,64834
+2014,12,Perisher,59121
+2014,13,Perisher,50737
+2014,14,Perisher,33833
+2014,15,Perisher,18381
+2015,1,Perisher,15906
+2015,2,Perisher,7363
+2015,3,Perisher,9360
+2015,4,Perisher,23296
+2015,5,Perisher,47607
+2015,6,Perisher,57282
+2015,7,Perisher,54202
+2015,8,Perisher,48170
+2015,9,Perisher,57548
+2015,10,Perisher,64346
+2015,11,Perisher,68527
+2015,12,Perisher,60788
+2015,13,Perisher,52337
+2015,14,Perisher,43826
+2015,15,Perisher,27009
+2016,1,Perisher,9419
+2016,2,Perisher,5380
+2016,3,Perisher,20567
+2016,4,Perisher,49193
+2016,5,Perisher,64386
+2016,6,Perisher,61295
+2016,7,Perisher,48984
+2016,8,Perisher,55233
+2016,9,Perisher,63067
+2016,10,Perisher,62748
+2016,11,Perisher,57827
+2016,12,Perisher,54481
+2016,13,Perisher,37561
+2016,14,Perisher,24737
+2016,15,Perisher,18080
+2017,1,Perisher,18739
+2017,2,Perisher,8792
+2017,3,Perisher,15236
+2017,4,Perisher,34802
+2017,5,Perisher,64376
+2017,6,Perisher,76620
+2017,7,Perisher,56369
+2017,8,Perisher,53570
+2017,9,Perisher,60063
+2017,10,Perisher,72515
+2017,11,Perisher,70718
+2017,12,Perisher,65364
+2017,13,Perisher,52565
+2017,14,Perisher,48963
+2017,15,Perisher,34698
+2018,1,Perisher,14866
+2018,2,Perisher,11276
+2018,3,Perisher,22795
+2018,4,Perisher,37741
+2018,5,Perisher,71310
+2018,6,Perisher,93226
+2018,7,Perisher,61632
+2018,8,Perisher,55592
+2018,9,Perisher,65256
+2018,10,Perisher,69540
+2018,11,Perisher,70211
+2018,12,Perisher,70681
+2018,13,Perisher,54342
+2018,14,Perisher,46265
+2018,15,Perisher,30146
+2019,1,Perisher,24730
+2019,2,Perisher,12913
+2019,3,Perisher,17700
+2019,4,Perisher,34236
+2019,5,Perisher,64459
+2019,6,Perisher,72800
+2019,7,Perisher,60123
+2019,8,Perisher,58944
+2019,9,Perisher,61440
+2019,10,Perisher,60344
+2019,11,Perisher,77783
+2019,12,Perisher,71288
+2019,13,Perisher,59693
+2019,14,Perisher,49945
+2019,15,Perisher,37747
+2020,1,Perisher,2987
+2020,2,Perisher,2205
+2020,3,Perisher,2373
+2020,4,Perisher,6968
+2020,5,Perisher,8403
+2020,6,Perisher,14350
+2020,7,Perisher,7748
+2020,8,Perisher,5264
+2020,9,Perisher,5356
+2020,10,Perisher,3128
+2020,11,Perisher,69064
+2020,12,Perisher,74536
+2020,13,Perisher,65490
+2020,14,Perisher,54819
+2020,15,Perisher,43846
+2021,1,Perisher,6003
+2021,2,Perisher,10901
+2021,3,Perisher,24338
+2021,4,Perisher,43413
+2021,5,Perisher,55654
+2021,6,Perisher,22523
+2021,7,Perisher,8333
+2021,8,Perisher,29825
+2021,9,Perisher,25409
+2021,10,Perisher,19460
+2021,11,Perisher,18796
+2021,12,Perisher,7640
+2021,13,Perisher,5871
+2021,14,Perisher,5192
+2021,15,Perisher,8958
+2022,1,Perisher,37439
+2022,2,Perisher,38068
+2022,3,Perisher,42997
+2022,4,Perisher,68311
+2022,5,Perisher,77499
+2022,6,Perisher,66744
+2022,7,Perisher,66904
+2022,8,Perisher,64587
+2022,9,Perisher,60980
+2022,10,Perisher,65991
+2022,11,Perisher,65880
+2022,12,Perisher,65716
+2022,13,Perisher,49749
+2022,14,Perisher,37395
+2022,15,Perisher,32777
+2023,1,Perisher,11226
+2023,2,Perisher,13577
+2023,3,Perisher,28654
+2023,4,Perisher,59114
+2023,5,Perisher,66365
+2023,6,Perisher,63478
+2023,7,Perisher,58267
+2023,8,Perisher,55647
+2023,9,Perisher,52481
+2023,10,Perisher,54314
+2023,11,Perisher,53176
+2023,12,Perisher,45383
+2023,13,Perisher,30430
+2023,14,Perisher,19256
+2023,15,Perisher,13110
+2024,1,Perisher,7198
+2024,2,Perisher,9075
+2024,3,Perisher,12013
+2024,4,Perisher,26583
+2024,5,Perisher,60244
+2024,6,Perisher,64682
+2024,7,Perisher,60369
+2024,8,Perisher,57846
+2024,9,Perisher,62142
+2024,10,Perisher,55118
+2024,11,Perisher,49136
+2024,12,Perisher,43382
+2024,13,Perisher,23908
+2024,14,Perisher,8244
+2024,15,Perisher,5336
+2014,1,Selwyn,1041
+2014,2,Selwyn,383
+2014,3,Selwyn,597
+2014,4,Selwyn,2877
+2014,5,Selwyn,8588
+2014,6,Selwyn,10682
+2014,7,Selwyn,8180
+2014,8,Selwyn,7267
+2014,9,Selwyn,8708
+2014,10,Selwyn,9133
+2014,11,Selwyn,8968
+2014,12,Selwyn,8404
+2014,13,Selwyn,6975
+2014,14,Selwyn,4628
+2014,15,Selwyn,2566
+2015,1,Selwyn,2238
+2015,2,Selwyn,1001
+2015,3,Selwyn,1331
+2015,4,Selwyn,3211
+2015,5,Selwyn,6658
+2015,6,Selwyn,8112
+2015,7,Selwyn,7373
+2015,8,Selwyn,6601
+2015,9,Selwyn,7983
+2015,10,Selwyn,9023
+2015,11,Selwyn,9492
+2015,12,Selwyn,8436
+2015,13,Selwyn,7256
+2015,14,Selwyn,6011
+2015,15,Selwyn,3722
+2016,1,Selwyn,1329
+2016,2,Selwyn,764
+2016,3,Selwyn,2903
+2016,4,Selwyn,6868
+2016,5,Selwyn,9151
+2016,6,Selwyn,8336
+2016,7,Selwyn,6817
+2016,8,Selwyn,7706
+2016,9,Selwyn,8763
+2016,10,Selwyn,8848
+2016,11,Selwyn,8235
+2016,12,Selwyn,7678
+2016,13,Selwyn,5307
+2016,14,Selwyn,3453
+2016,15,Selwyn,2599
+2017,1,Selwyn,2569
+2017,2,Selwyn,1236
+2017,3,Selwyn,2180
+2017,4,Selwyn,4933
+2017,5,Selwyn,8953
+2017,6,Selwyn,10860
+2017,7,Selwyn,7768
+2017,8,Selwyn,7398
+2017,9,Selwyn,8341
+2017,10,Selwyn,10099
+2017,11,Selwyn,10008
+2017,12,Selwyn,9105
+2017,13,Selwyn,7230
+2017,14,Selwyn,6867
+2017,15,Selwyn,4847
+2018,1,Selwyn,2060
+2018,2,Selwyn,1591
+2018,3,Selwyn,3095
+2018,4,Selwyn,5357
+2018,5,Selwyn,10213
+2018,6,Selwyn,12863
+2018,7,Selwyn,8428
+2018,8,Selwyn,7857
+2018,9,Selwyn,9032
+2018,10,Selwyn,9444
+2018,11,Selwyn,9592
+2018,12,Selwyn,9764
+2018,13,Selwyn,7557
+2018,14,Selwyn,6454
+2018,15,Selwyn,4262
+2019,1,Selwyn,3472
+2019,2,Selwyn,1831
+2019,3,Selwyn,2534
+2019,4,Selwyn,4763
+2019,5,Selwyn,9019
+2019,6,Selwyn,9962
+2019,7,Selwyn,8267
+2019,8,Selwyn,8107
+2019,9,Selwyn,8547
+2019,10,Selwyn,8538
+2019,11,Selwyn,10785
+2019,12,Selwyn,10147
+2019,13,Selwyn,8432
+2019,14,Selwyn,7077
+2019,15,Selwyn,5189
+2020,1,Selwyn,430
+2020,2,Selwyn,311
+2020,3,Selwyn,334
+2020,4,Selwyn,969
+2020,5,Selwyn,1185
+2020,6,Selwyn,1978
+2020,7,Selwyn,1087
+2020,8,Selwyn,720
+2020,9,Selwyn,733
+2020,10,Selwyn,445
+2020,11,Selwyn,9662
+2020,12,Selwyn,10466
+2020,13,Selwyn,9290
+2020,14,Selwyn,7754
+2020,15,Selwyn,6133
+2021,1,Selwyn,830
+2021,2,Selwyn,1541
+2021,3,Selwyn,3315
+2021,4,Selwyn,6070
+2021,5,Selwyn,8018
+2021,6,Selwyn,3099
+2021,7,Selwyn,1186
+2021,8,Selwyn,4115
+2021,9,Selwyn,3478
+2021,10,Selwyn,2706
+2021,11,Selwyn,2680
+2021,12,Selwyn,1102
+2021,13,Selwyn,806
+2021,14,Selwyn,742
+2021,15,Selwyn,1282
+2022,1,Selwyn,5144
+2022,2,Selwyn,5403
+2022,3,Selwyn,5887
+2022,4,Selwyn,9683
+2022,5,Selwyn,10791
+2022,6,Selwyn,9436
+2022,7,Selwyn,9266
+2022,8,Selwyn,9018
+2022,9,Selwyn,8602
+2022,10,Selwyn,9356
+2022,11,Selwyn,9146
+2022,12,Selwyn,9077
+2022,13,Selwyn,6969
+2022,14,Selwyn,5298
+2022,15,Selwyn,4557
+2023,1,Selwyn,1591
+2023,2,Selwyn,1932
+2023,3,Selwyn,4120
+2023,4,Selwyn,8400
+2023,5,Selwyn,9149
+2023,6,Selwyn,8950
+2023,7,Selwyn,8106
+2023,8,Selwyn,7770
+2023,9,Selwyn,7424
+2023,10,Selwyn,7666
+2023,11,Selwyn,7581
+2023,12,Selwyn,6278
+2023,13,Selwyn,4244
+2023,14,Selwyn,2733
+2023,15,Selwyn,1865
+2024,1,Selwyn,990
+2024,2,Selwyn,1264
+2024,3,Selwyn,1686
+2024,4,Selwyn,3662
+2024,5,Selwyn,8563
+2024,6,Selwyn,8932
+2024,7,Selwyn,8530
+2024,8,Selwyn,8160
+2024,9,Selwyn,8533
+2024,10,Selwyn,7668
+2024,11,Selwyn,6859
+2024,12,Selwyn,5969
+2024,13,Selwyn,3351
+2024,14,Selwyn,1177
+2024,15,Selwyn,745
+2014,1,Thredbo,5535
+2014,2,Thredbo,2090
+2014,3,Thredbo,3216
+2014,4,Thredbo,15497
+2014,5,Thredbo,46546
+2014,6,Thredbo,58668
+2014,7,Thredbo,44109
+2014,8,Thredbo,39654
+2014,9,Thredbo,46875
+2014,10,Thredbo,48777
+2014,11,Thredbo,49003
+2014,12,Thredbo,44164
+2014,13,Thredbo,38470
+2014,14,Thredbo,25734
+2014,15,Thredbo,13890
+2015,1,Thredbo,12039
+2015,2,Thredbo,5540
+2015,3,Thredbo,7069
+2015,4,Thredbo,17634
+2015,5,Thredbo,35918
+2015,6,Thredbo,43234
+2015,7,Thredbo,40967
+2015,8,Thredbo,36200
+2015,9,Thredbo,43268
+2015,10,Thredbo,48525
+2015,11,Thredbo,51900
+2015,12,Thredbo,46015
+2015,13,Thredbo,39850
+2015,14,Thredbo,33284
+2015,15,Thredbo,20568
+2016,1,Thredbo,7167
+2016,2,Thredbo,4083
+2016,3,Thredbo,15501
+2016,4,Thredbo,36917
+2016,5,Thredbo,48170
+2016,6,Thredbo,45940
+2016,7,Thredbo,37172
+2016,8,Thredbo,41911
+2016,9,Thredbo,47536
+2016,10,Thredbo,47996
+2016,11,Thredbo,43729
+2016,12,Thredbo,41768
+2016,13,Thredbo,28580
+2016,14,Thredbo,18938
+2016,15,Thredbo,13868
+2017,1,Thredbo,14174
+2017,2,Thredbo,6636
+2017,3,Thredbo,11543
+2017,4,Thredbo,26374
+2017,5,Thredbo,49289
+2017,6,Thredbo,58279
+2017,7,Thredbo,42457
+2017,8,Thredbo,40744
+2017,9,Thredbo,45216
+2017,10,Thredbo,55420
+2017,11,Thredbo,53536
+2017,12,Thredbo,49658
+2017,13,Thredbo,39634
+2017,14,Thredbo,37173
+2017,15,Thredbo,26630
+2018,1,Thredbo,11210
+2018,2,Thredbo,8547
+2018,3,Thredbo,17226
+2018,4,Thredbo,28601
+2018,5,Thredbo,54351
+2018,6,Thredbo,70634
+2018,7,Thredbo,46287
+2018,8,Thredbo,41879
+2018,9,Thredbo,49315
+2018,10,Thredbo,52085
+2018,11,Thredbo,53194
+2018,12,Thredbo,53232
+2018,13,Thredbo,41257
+2018,14,Thredbo,34676
+2018,15,Thredbo,23050
+2019,1,Thredbo,18741
+2019,2,Thredbo,9845
+2019,3,Thredbo,13374
+2019,4,Thredbo,25851
+2019,5,Thredbo,48275
+2019,6,Thredbo,55168
+2019,7,Thredbo,45493
+2019,8,Thredbo,45050
+2019,9,Thredbo,46665
+2019,10,Thredbo,45330
+2019,11,Thredbo,59101
+2019,12,Thredbo,53915
+2019,13,Thredbo,45841
+2019,14,Thredbo,37957
+2019,15,Thredbo,28383
+2020,1,Thredbo,2281
+2020,2,Thredbo,1666
+2020,3,Thredbo,1787
+2020,4,Thredbo,5251
+2020,5,Thredbo,6327
+2020,6,Thredbo,10795
+2020,7,Thredbo,5849
+2020,8,Thredbo,3997
+2020,9,Thredbo,4059
+2020,10,Thredbo,2366
+2020,11,Thredbo,52216
+2020,12,Thredbo,56508
+2020,13,Thredbo,49878
+2020,14,Thredbo,41899
+2020,15,Thredbo,33170
+2021,1,Thredbo,4556
+2021,2,Thredbo,8255
+2021,3,Thredbo,18301
+2021,4,Thredbo,32789
+2021,5,Thredbo,42107
+2021,6,Thredbo,17062
+2021,7,Thredbo,6387
+2021,8,Thredbo,22563
+2021,9,Thredbo,19180
+2021,10,Thredbo,14564
+2021,11,Thredbo,14342
+2021,12,Thredbo,5792
+2021,13,Thredbo,4411
+2021,14,Thredbo,3909
+2021,15,Thredbo,6774
+2022,1,Thredbo,28482
+2022,2,Thredbo,28805
+2022,3,Thredbo,32323
+2022,4,Thredbo,51793
+2022,5,Thredbo,58950
+2022,6,Thredbo,50846
+2022,7,Thredbo,50463
+2022,8,Thredbo,48895
+2022,9,Thredbo,46293
+2022,10,Thredbo,49363
+2022,11,Thredbo,49801
+2022,12,Thredbo,49543
+2022,13,Thredbo,37838
+2022,14,Thredbo,28277
+2022,15,Thredbo,24771
+2023,1,Thredbo,8545
+2023,2,Thredbo,10240
+2023,3,Thredbo,21673
+2023,4,Thredbo,44587
+2023,5,Thredbo,49756
+2023,6,Thredbo,48555
+2023,7,Thredbo,44316
+2023,8,Thredbo,42124
+2023,9,Thredbo,39758
+2023,10,Thredbo,40626
+2023,11,Thredbo,40364
+2023,12,Thredbo,34371
+2023,13,Thredbo,23161
+2023,14,Thredbo,14628
+2023,15,Thredbo,9901
+2024,1,Thredbo,5493
+2024,2,Thredbo,6847
+2024,3,Thredbo,9071
+2024,4,Thredbo,20186
+2024,5,Thredbo,45827
+2024,6,Thredbo,48866
+2024,7,Thredbo,46149
+2024,8,Thredbo,43752
+2024,9,Thredbo,46790
+2024,10,Thredbo,41927
+2024,11,Thredbo,37608
+2024,12,Thredbo,33208
+2024,13,Thredbo,18120
+2024,14,Thredbo,6270
+2024,15,Thredbo,4103
