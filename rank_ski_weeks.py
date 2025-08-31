@@ -3,33 +3,29 @@
 Rank ski-trip options using:
   - Heavy snow the week before (bigger = better)
   - Lighter snow during the trip (smaller = better)
-  - DROP any (station, week) whose *trip-week* minimum temperature > threshold (default -1°C)
+  - Filter out any (station, trip_week) whose trip-week MIN temperature > threshold (default -1°C)
+  - Temperature CSV may include BOTH Tmin and Tmax; we auto-detect and use ONLY Tmin.
 
 Inputs
 ------
-1) --csv   : predictions CSV with columns: station, 1..15
-2) --temps : min-temp   CSV with columns: station, 1..15  (°C)
+--csv   : rainfall/snow predictions (wide): station, 1..15
+--temps : Tmin/Tmax (wide): station, week-level columns that include *min* or *tmin* in their names
+         Examples handled: 1_min, min_1, tmin_1, week1_min, wk_01_tmin, etc.
 
 Scoring
 -------
 score = w_prev*z(prev_week) + w_drop*z(prev - curr) + w_curr*(-z(curr_week))
-
-Usage
------
-python rank_ski_weeks.py --csv predictions.csv --temps min_temps.csv --top 20
-# Only consider week 9 trip:
-python rank_ski_weeks.py --csv predictions.csv --temps min_temps.csv --target-week 9
-# Adjust weights or the temperature threshold:
-python rank_ski_weeks.py --csv predictions.csv --temps min_temps.csv --w-prev 0.6 --w-drop 0.2 --w-curr 0.2 --temp-threshold -1
 """
 
 from __future__ import annotations
 import argparse
-from typing import Optional, Tuple, List
+import re
+from typing import Optional, Tuple, List, Dict
 import numpy as np
 import pandas as pd
 
 
+# ---------- helpers ----------
 def _zscore(arr: np.ndarray) -> np.ndarray:
     arr = np.asarray(arr, dtype=float)
     mu = np.nanmean(arr)
@@ -40,7 +36,7 @@ def _zscore(arr: np.ndarray) -> np.ndarray:
 
 
 def _coerce_week_cols(df: pd.DataFrame) -> Tuple[pd.DataFrame, List[int]]:
-    """Detect and order week columns as ints 1..N."""
+    """Detect and order week columns as ints 1..N for a matrix shaped like: station, 1..15."""
     week_cols = []
     for c in df.columns:
         if c == "station":
@@ -60,44 +56,108 @@ def _coerce_week_cols(df: pd.DataFrame) -> Tuple[pd.DataFrame, List[int]]:
     return df, week_cols
 
 
-def load_matrix(path: str) -> Tuple[pd.DataFrame, List[int]]:
+def load_snow_matrix(path: str) -> Tuple[pd.DataFrame, List[int]]:
     df = pd.read_csv(path)
     if "station" not in df.columns:
         raise ValueError(f"{path} must include a 'station' column.")
-    df, weeks = _coerce_week_cols(df)
-    return df, weeks
+    return _coerce_week_cols(df)
 
 
+def _extract_tmin_columns(temp_df: pd.DataFrame) -> Dict[int, str]:
+    """
+    From a wide temp dataframe with both Tmin and Tmax columns, pick ONLY Tmin.
+    We look for columns whose names contain 'tmin' or a token 'min' (case-insensitive),
+    and explicitly exclude anything containing 'tmax' or 'max'.
+    We also parse the week number from the column name.
+    """
+    week_to_col: Dict[int, str] = {}
+
+    for col in temp_df.columns:
+        if col == "station":
+            continue
+        name = str(col)
+        low = name.lower()
+
+        # must include tmin or a clean 'min' token; exclude 'tmax'/'max'
+        is_min = ("tmin" in low) or bool(re.search(r"(?:^|[_\-\s])min(?:$|[_\-\s])", low))
+        is_max = ("tmax" in low) or bool(re.search(r"(?:^|[_\-\s])max(?:$|[_\-\s])", low))
+        if not is_min or is_max:
+            continue
+
+        m = re.search(r"(\d+)", low)   # first integer in the name = week number
+        if not m:
+            continue
+        wk = int(m.group(1))
+
+        # Prefer a column explicitly containing 'tmin' over generic 'min' if duplicates
+        if wk not in week_to_col:
+            week_to_col[wk] = col
+        else:
+            if "tmin" in low and "tmin" not in str(week_to_col[wk]).lower():
+                week_to_col[wk] = col
+
+    return week_to_col
+
+
+def load_tmin_matrix(path: str) -> Tuple[pd.DataFrame, List[int]]:
+    """
+    Read a wide Tmin/Tmax file and return a dataframe shaped like: station, 1..15 (Tmin only).
+    """
+    df = pd.read_csv(path)
+    if "station" not in df.columns:
+        raise ValueError(f"{path} must include a 'station' column.")
+
+    week_to_col = _extract_tmin_columns(df)
+
+    if not week_to_col:
+        # Fallback: maybe the file already has only Tmin with plain week numbers 1..15
+        try:
+            df2, weeks = _coerce_week_cols(df.copy())
+            return df2, weeks
+        except Exception as e:
+            raise ValueError(
+                "Could not detect Tmin columns. Make sure Tmin columns include 'tmin' "
+                "or a clean 'min' token (e.g., '1_min', 'tmin_1', 'week1_min')."
+            ) from e
+
+    weeks = sorted(week_to_col.keys())
+    tmin_cols = ["station"] + [week_to_col[w] for w in weeks]
+    out = df[tmin_cols].copy()
+
+    # Rename columns to plain week numbers 1..N and ensure numeric
+    rename_map = {week_to_col[w]: str(w) for w in weeks}
+    out = out.rename(columns=rename_map)
+    for w in weeks:
+        out[str(w)] = pd.to_numeric(out[str(w)], errors="coerce")
+
+    return out, weeks
+
+
+# ---------- pipeline ----------
 def build_candidate_table(
     snow_df: pd.DataFrame,
     weeks: List[int],
     temp_df: pd.DataFrame,
     temp_threshold: float,
 ) -> pd.DataFrame:
-    """
-    Build one row per (station, trip_week) with prev/curr snow, drop, and trip-week min temp.
-    Rows with trip-week min temp > temp_threshold are filtered OUT.
-    """
+    """Build candidate rows and apply Tmin filter."""
     temp_idx = temp_df.set_index("station")
     records = []
 
     for w in weeks:
         if w == weeks[0]:
-            # No previous week for the very first week
-            continue
+            continue  # no previous week for the first week
         prev_col, curr_col = str(w - 1), str(w)
         for _, row in snow_df.iterrows():
             station = row["station"]
             prev_val = row[prev_col]
             curr_val = row[curr_col]
 
-            # look up trip-week min temp
             try:
                 trip_min_temp = float(temp_idx.loc[station, curr_col])
             except Exception:
                 trip_min_temp = np.nan
 
-            # Filter: require a valid, cold-enough trip week
             if pd.isna(prev_val) or pd.isna(curr_val) or pd.isna(trip_min_temp):
                 continue
             if trip_min_temp > temp_threshold:
@@ -130,7 +190,6 @@ def score_candidates(
     w_drop: float = 0.2,
     w_curr: float = 0.2,
 ) -> pd.DataFrame:
-    """Add score components and overall score; larger = better."""
     weights = np.array([w_prev, w_drop, w_curr], dtype=float)
     if np.any(weights < 0) or np.all(weights == 0):
         raise ValueError("Weights must be non-negative and not all zero.")
@@ -143,7 +202,7 @@ def score_candidates(
     cand = cand.copy()
     cand["score_prev"] = weights[0] * z_prev
     cand["score_drop"] = weights[1] * z_drop
-    cand["score_curr"] = weights[2] * (-z_curr)  # lower current snow preferred
+    cand["score_curr"] = weights[2] * (-z_curr)  # prefer lower current snow
     cand["score"] = cand["score_prev"] + cand["score_drop"] + cand["score_curr"]
 
     cand = cand.sort_values(
@@ -193,13 +252,13 @@ def recommend(
     ]
     scored = scored.reset_index(drop=True)
     scored["rank"] = np.arange(1, len(scored) + 1)
-    return scored[cols].head(top_k), cand, scored  # return also full tables
+    return scored[cols].head(top_k), cand, scored
 
 
 def main():
-    p = argparse.ArgumentParser(description="Rank ski trip weeks by snow pattern with temperature filtering.")
+    p = argparse.ArgumentParser(description="Rank ski trip weeks by snow pattern with Tmin filtering; ignore Tmax.")
     p.add_argument("--csv", required=True, help="Path to predictions CSV (station, 1..15).")
-    p.add_argument("--temps", required=True, help="Path to min-temp CSV (station, 1..15).")
+    p.add_argument("--temps", required=True, help="Path to Tmin/Tmax CSV; ONLY Tmin will be used.")
     p.add_argument("--target-week", type=int, default=None,
                    help="If set, only evaluate this trip week (uses week-1 as 'prev').")
     p.add_argument("--top", type=int, default=20, help="How many results to print/save.")
@@ -212,18 +271,18 @@ def main():
                    help="CSV to write full ranked results.")
     args = p.parse_args()
 
-    snow_df, weeks = load_matrix(args.csv)
-    temp_df, temp_weeks = load_matrix(args.temps)
+    snow_df, weeks = load_snow_matrix(args.csv)
+    tmin_df, tmin_weeks = load_tmin_matrix(args.temps)
 
     # Basic sanity: overlapping week sets
-    if set(weeks) - set(temp_weeks):
-        missing = sorted(set(weeks) - set(temp_weeks))
-        raise ValueError(f"Temperature file missing week columns: {missing}")
+    missing = sorted(set(weeks) - set(tmin_weeks))
+    if missing:
+        raise ValueError(f"Temperature file missing Tmin for weeks: {missing}")
 
     top, cand_filtered, scored_full = recommend(
         snow_df,
         weeks,
-        temp_df=temp_df,
+        temp_df=tmin_df,
         temp_threshold=args.temp_threshold,
         target_week=args.target_week,
         w_prev=args.w_prev,
@@ -232,21 +291,21 @@ def main():
         top_k=args.top,
     )
 
-    # Print the shortlist
+    # Print shortlist
     with pd.option_context("display.max_rows", None, "display.max_columns", None):
         print(top.to_string(index=False))
 
-    # Save the full ranking (post-filter)
+    # Save full ranking (post-filter)
     scored_full.to_csv(args.out, index=False)
-    print(f"\nSaved full ranking (after temp filter) to: {args.out}")
+    print(f"\nSaved full ranking (after Tmin filter) to: {args.out}")
 
-    # Friendly one-line winner summary
+    # One-line winner summary
     best = scored_full.iloc[0]
     print(
         f"Best overall → station {best.station}, week {int(best.trip_week)} "
         f"(prev {int(best.prev_week)}), score {best.score:.3f} | "
         f"prev {best.prev_snow:.2f}, curr {best.curr_snow:.2f}, drop {best.drop_snow:.2f}, "
-        f"trip min temp {best.trip_min_temp:.1f}°C"
+        f"trip Tmin {best.trip_min_temp:.1f}°C"
     )
 
 
